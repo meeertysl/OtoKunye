@@ -35,4 +35,21 @@ return [
         ],
     ],
 
+    'netgsm' => [
+        'enabled' => env('NETGSM_ENABLED', false),
+        'url' => env('NETGSM_URL', 'https://api.netgsm.com.tr/sms/send/get'),
+        'usercode' => env('NETGSM_USERCODE'),
+        'password' => env('NETGSM_PASSWORD'),
+        'header' => env('NETGSM_HEADER'),
+        'language' => env('NETGSM_LANGUAGE', 'TR'),
+        'timeout' => env('NETGSM_TIMEOUT', 15),
+    ],
+
+    'parasut' => [
+        'enabled' => env('PARASUT_ENABLED', false),
+        'api_url' => env('PARASUT_API_URL', 'https://api.parasut.com/v4'),
+        'api_key' => env('PARASUT_API_KEY'),
+        'company_id' => env('PARASUT_COMPANY_ID'),
+    ],
+
 ];

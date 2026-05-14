@@ -20,6 +20,7 @@
 /storage/*.key
 /storage/pail
 /vendor
+composer.phar
 _ide_helper.php
 Homestead.json
 Homestead.yaml
